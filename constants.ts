@@ -162,6 +162,6 @@ export const PRODUCTS: Product[] = [
     sizes: ['41', '42', '43', '44'],
     color: 'Hnědá',
     image: '/images/shoes/chelsea.jpg',
-    description: 'pohodlne ponozky.'
+    description: 'pohodlne ponozky na cesty.'
   },
 ];
