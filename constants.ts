@@ -4,23 +4,23 @@ export const PRODUCTS: Product[] = [
   // --- HEADWEAR ---
   {
     id: 'h1',
-    name: 'Kšiltovka Street Logo',
+    name: 'Kšiltovka',
     price: 850,
     category: 'Doplňky',
     type: 'headwear',
-    brand: 'Represent',
+    brand: 'VIRA',
     sizes: ['One Size'],
     color: 'Černá',
     image: '/images/headwear/cap-street.jpg',
-    description: 'Ikonická kšiltovka s 3D výšivkou.'
+    description: 'Kšiltovka na cesty.'
   },
   {
     id: 'h2',
-    name: 'Merino Beanie',
+    name: 'Kulich',
     price: 650,
     category: 'Doplňky',
     type: 'headwear',
-    brand: 'Nordic',
+    brand: 'VIRA',
     sizes: ['One Size'],
     color: 'Šedá',
     image: '/images/headwear/beanie-merino.jpg',
@@ -28,51 +28,27 @@ export const PRODUCTS: Product[] = [
   },
   {
     id: 'h3',
-    name: 'Bucket Hat Retro',
+    name: 'Taška',
     price: 590,
     category: 'Doplňky',
     type: 'headwear',
-    brand: 'Adidas',
+    brand: 'VIRA',
     sizes: ['S/M', 'L/XL'],
     color: 'Béžová',
     image: '/images/headwear/bucket-retro.jpg',
-    description: 'Stylový klobouk v retro stylu 90. let.'
+    description: 'Supr taška'
   },
   {
     id: 'h4',
-    name: 'Snapback Chicago',
+    name: 'čepice',
     price: 990,
     category: 'Doplňky',
     type: 'headwear',
-    brand: 'New Era',
+    brand: 'VIRA',
     sizes: ['One Size'],
     color: 'Červená',
     image: '/images/head/chicago.jpg',
-    description: 'Klasická snapback kšiltovka s rovným kšiltem.'
-  },
-  {
-    id: 'h5',
-    name: 'Tech Runner Cap',
-    price: 750,
-    category: 'Doplňky',
-    type: 'headwear',
-    brand: 'Nike',
-    sizes: ['One Size'],
-    color: 'Bílá',
-    image: '/images/head/tech_cap.jpg',
-    description: 'Lehká běžecká čepice z prodyšného materiálu.'
-  },
-  {
-    id: 'h6',
-    name: 'Wool Fedora',
-    price: 1890,
-    category: 'Doplňky',
-    type: 'headwear',
-    brand: 'Stetson',
-    sizes: ['57', '59', '61'],
-    color: 'Hnědá',
-    image: '/images/headwear/fedora-wool.jpg',
-    description: 'Elegantní vlněný klobouk pro formální příležitosti.'
+    description: 'Klasická čepice.'
   },
 
   // --- TOPS ---
@@ -82,193 +58,73 @@ export const PRODUCTS: Product[] = [
     price: 890,
     category: 'Muži',
     type: 'top',
-    brand: 'Nike',
+    brand: 'VIRA',
     sizes: ['S', 'M', 'L', 'XL'],
     color: 'Bílá',
     image: '/images/tops/tee-essential.jpg',
-    description: 'Prémiová bavlna, heavyweight gramáž.'
+    description: 'Prémiová bavlna'
   },
   {
     id: 't2',
-    name: 'Oversized Hoodie',
+    name: 'Oversized mikina',
     price: 2490,
     category: 'Ženy',
     type: 'top',
-    brand: 'Fear of God',
+    brand: 'VIRA',
     sizes: ['XS', 'S', 'M', 'L'],
     color: 'Béžová',
     image: '/images/tops/hoodie-oversized.jpg',
-    description: 'Maximální pohodlí v oversized střihu.'
-  },
-  {
-    id: 't3',
-    name: 'Oxford Shirt',
-    price: 1800,
-    category: 'Muži',
-    type: 'top',
-    brand: 'Ralph Lauren',
-    sizes: ['M', 'L', 'XL', 'XXL'],
-    color: 'Modrá',
-    image: '/images/tops/shirt-oxford.jpg',
-    description: 'Klasická košile pro formální i casual nošení.'
-  },
-  {
-    id: 't4',
-    name: 'Silk Blouse',
-    price: 3200,
-    category: 'Ženy',
-    type: 'top',
-    brand: 'Massimo Dutti',
-    sizes: ['XS', 'S', 'M'],
-    color: 'Černá',
-    image: '/images/tops/blouse-silk.jpg',
-    description: 'Jemná halenka z přírodního hedvábí.'
-  },
-  {
-    id: 't5',
-    name: 'Vintage Graphic Tee',
-    price: 1200,
-    category: 'Muži',
-    type: 'top',
-    brand: 'Represent',
-    sizes: ['M', 'L', 'XL'],
-    color: 'Šedá',
-    image: '/images/tops/tee-vintage.jpg',
-    description: 'Tričko s unikátním vintage opráním.'
-  },
-  {
-    id: 't6',
-    name: 'Denim Jacket',
-    price: 2890,
-    category: 'Muži',
-    type: 'top',
-    brand: 'Levi\'s',
-    sizes: ['S', 'M', 'L', 'XL'],
-    color: 'Modrá',
-    image: '/images/tops/jacket-denim.jpg',
-    description: 'Klasická džínová bunda, která nestárne.'
-  },
-  {
-    id: 't7',
-    name: 'Puffer Jacket',
-    price: 4500,
-    category: 'Muži',
-    type: 'top',
-    brand: 'North Face',
-    sizes: ['M', 'L', 'XL'],
-    color: 'Černá',
-    image: '/images/tops/jacket-puffer.jpg',
-    description: 'Zimní péřová bunda do extrémních podmínek.'
-  },
-  {
-    id: 't8',
-    name: 'Crop Top Sport',
-    price: 850,
-    category: 'Ženy',
-    type: 'top',
-    brand: 'Nike',
-    sizes: ['XS', 'S', 'M'],
-    color: 'Zelená',
-    image: '/images/tops/top-crop.jpg',
-    description: 'Funkční sportovní top na cvičení.'
-  },
-  {
-    id: 't9',
-    name: 'Flannel Shirt',
-    price: 1450,
-    category: 'Muži',
-    type: 'top',
-    brand: 'Dickies',
-    sizes: ['M', 'L', 'XL', 'XXL'],
-    color: 'Červená',
-    image: '/images/tops/shirt-flannel.jpg',
-    description: 'Teplá flanelová košile s kostkovaným vzorem.'
+    description: 'Maximální pohodlí'
   },
 
   // --- BOTTOMS ---
   {
     id: 'b1',
-    name: 'Slim Tapered Jeans',
+    name: 'Dziny',
     price: 2100,
     category: 'Muži',
     type: 'bottom',
-    brand: 'Levi\'s',
+    brand: 'VIRA',
     sizes: ['30', '32', '34', '36'],
     color: 'Černá',
     image: '/images/bottoms/jeans-slim.jpg',
-    description: 'Pohodlné elastické džíny s úzkým střihem.'
+    description: 'Pohodlné džíny.'
   },
   {
     id: 'b2',
-    name: 'Linen Wide Trousers',
+    name: 'Teplaky',
     price: 1900,
     category: 'Ženy',
     type: 'bottom',
-    brand: 'Arket',
+    brand: 'VIRA',
     sizes: ['36', '38', '40'],
     color: 'Bílá',
     image: '/images/bottoms/trousers-linen.jpg',
-    description: 'Vzdušné letní kalhoty z praného lnu.'
+    description: 'Kalhoty z praného lnu.'
   },
   {
     id: 'b3',
-    name: 'Tech Cargo Pants',
+    name: 'Cargo Pants',
     price: 3500,
     category: 'Muži',
     type: 'bottom',
-    brand: 'Stone Island',
+    brand: 'VIRA',
     sizes: ['30', '32', '34'],
     color: 'Zelená',
     image: '/images/bottoms/pants-cargo.jpg',
-    description: 'Technické kalhoty s voděodolnou úpravou.'
+    description: 'super kalhoty'
   },
   {
     id: 'b4',
-    name: 'Chino Shorts',
+    name: 'Kraťasy',
     price: 1200,
     category: 'Muži',
     type: 'bottom',
-    brand: 'H&M Premium',
+    brand: 'VIRA',
     sizes: ['30', '32', '34', '36'],
     color: 'Béžová',
     image: '/images/bottoms/shorts-chino.jpg',
-    description: 'Elegantní kraťasy pro letní dny.'
-  },
-  {
-    id: 'b5',
-    name: 'Sweatpants Relaxed',
-    price: 1590,
-    category: 'Muži',
-    type: 'bottom',
-    brand: 'Nike',
-    sizes: ['S', 'M', 'L', 'XL'],
-    color: 'Šedá',
-    image: '/images/bottoms/sweatpants.jpg',
-    description: 'Domácí tepláky z měkkého fleecu.'
-  },
-  {
-    id: 'b6',
-    name: 'Pleated Skirt',
-    price: 1350,
-    category: 'Ženy',
-    type: 'bottom',
-    brand: 'Zara',
-    sizes: ['XS', 'S', 'M'],
-    color: 'Černá',
-    image: '/images/bottoms/skirt-pleated.jpg',
-    description: 'Krátká skládaná sukně.'
-  },
-  {
-    id: 'b7',
-    name: 'Leather Pants',
-    price: 4900,
-    category: 'Ženy',
-    type: 'bottom',
-    brand: 'Massimo Dutti',
-    sizes: ['34', '36', '38'],
-    color: 'Hnědá',
-    image: '/images/bottoms/pants-leather.jpg',
-    description: 'Kalhoty z pravé jehněčí kůže.'
+    description: 'Kraťasy pro letní dny.'
   },
 
   // --- SHOES ---
@@ -278,70 +134,34 @@ export const PRODUCTS: Product[] = [
     price: 2990,
     category: 'Muži',
     type: 'shoes',
-    brand: 'Nike',
+    brand: 'Nike / VIRA',
     sizes: ['41', '42', '43', '44', '45'],
     color: 'Bílá',
     image: '/images/shoes/af1.jpg',
-    description: 'Legenda mezi teniskami.'
+    description: 'custom.'
   },
   {
     id: 's2',
-    name: 'Chelsea Boots',
+    name: 'Tretry',
     price: 4500,
     category: 'Muži',
     type: 'shoes',
-    brand: 'Common Projects',
+    brand: 'VIRA',
     sizes: ['41', '42', '43', '44'],
     color: 'Hnědá',
     image: '/images/shoes/chelsea.jpg',
-    description: 'Ručně šité boty z italské kůže.'
+    description: 'Ručně šité boty.'
   },
   {
     id: 's3',
-    name: 'Ultraboost DNA',
-    price: 3800,
-    category: 'Doplňky',
-    type: 'shoes',
-    brand: 'Adidas',
-    sizes: ['38', '39', '40', '41', '42'],
-    color: 'Černá',
-    image: '/images/shoes/ultraboost.jpg',
-    description: 'Maximální návratnost energie při každém kroku.'
-  },
-  {
-    id: 's4',
-    name: 'Canvas High-Top',
-    price: 1800,
-    category: 'Doplňky',
-    type: 'shoes',
-    brand: 'Converse',
-    sizes: ['36', '37', '38', '39', '40', '41'],
-    color: 'Červená',
-    image: '/images/shoes/converse.jpg',
-    description: 'Klasické plátěné tenisky v kotníkovém provedení.'
-  },
-  {
-    id: 's5',
-    name: 'Running Pro',
-    price: 3200,
+    name: 'Ponožky',
+    price: 200,
     category: 'Muži',
     type: 'shoes',
-    brand: 'Asics',
-    sizes: ['42', '43', '44', '45'],
-    color: 'Modrá',
-    image: '/images/shoes/running.jpg',
-    description: 'Profesionální běžecká obuv.'
+    brand: 'VIRA',
+    sizes: ['41', '42', '43', '44'],
+    color: 'Hnědá',
+    image: '/images/shoes/chelsea.jpg',
+    description: 'pohodlne ponozky.'
   },
-  {
-    id: 's6',
-    name: 'Retro Loafer',
-    price: 3900,
-    category: 'Ženy',
-    type: 'shoes',
-    brand: 'Gucci',
-    sizes: ['37', '38', '39'],
-    color: 'Černá',
-    image: '/images/shoes/loafer.jpg',
-    description: 'Luxusní mokasíny se zlatou sponou.'
-  }
 ];
