@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/jpg" href="/images/logo.png" />
+    <title>VIRA</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              // Defining explicit dark/black colors
+              dark: {
+                bg: "#000000",
+                surface: "#0a0a0a",
+                border: "#262626",
+              },
+              primary: {
+                50: "#f0f9ff",
+                100: "#e0f2fe",
+                500: "#0ea5e9",
+                600: "#0284c7",
+                700: "#0369a1",
+              },
+            },
+            animation: {
+              "fade-in-up": "fadeInUp 0.5s ease-out forwards",
+              "slide-in-right": "slideInRight 0.3s ease-out forwards",
+              "scale-in": "scaleIn 0.2s ease-out forwards",
+              "bounce-subtle": "bounceSubtle 2s infinite",
+            },
+            keyframes: {
+              fadeInUp: {
+                "0%": { opacity: "0", transform: "translateY(20px)" },
+                "100%": { opacity: "1", transform: "translateY(0)" },
+              },
+              slideInRight: {
+                "0%": { transform: "translateX(100%)" },
+                "100%": { transform: "translateX(0)" },
+              },
+              scaleIn: {
+                "0%": { transform: "scale(0.95)", opacity: "0" },
+                "100%": { transform: "scale(1)", opacity: "1" },
+              },
+              bounceSubtle: {
+                "0%, 100%": { transform: "translateY(-3px)" },
+                "50%": { transform: "translateY(3px)" },
+              },
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      /* Custom scrollbar for better aesthetics */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: transparent;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #cbd5e1;
+        border-radius: 4px;
+      }
+      .dark ::-webkit-scrollbar-thumb {
+        background: #333;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #94a3b8;
+      }
+
+      /* Smooth scrolling */
+      html {
+        scroll-behavior: smooth;
+      }
+
+      /* Animation utility classes */
+      .delay-100 {
+        animation-delay: 100ms;
+      }
+      .delay-200 {
+        animation-delay: 200ms;
+      }
+      .delay-300 {
+        animation-delay: 300ms;
+      }
+    </style>
+    <script type="importmap">
+      {
+        "imports": {
+          "react-router-dom": "https://esm.sh/react-router-dom@6.22.3?external=react,react-dom",
+          "react": "https://esm.sh/react@18.2.0",
+          "react/": "https://esm.sh/react@18.2.0/",
+          "react-dom": "https://esm.sh/react-dom@18.2.0?external=react",
+          "react-dom/": "https://esm.sh/react-dom@18.2.0/",
+          "react-dom/client": "https://esm.sh/react-dom@18.2.0/client?external=react",
+          "lucide-react": "https://esm.sh/lucide-react@0.344.0?external=react",
+          "@google/genai": "https://esm.sh/@google/genai@^1.33.0",
+          "three": "https://esm.sh/three@0.160.0",
+          "@react-three/fiber": "https://esm.sh/@react-three/fiber@8.15.16?external=react,react-dom,three",
+          "@react-three/drei": "https://esm.sh/@react-three/drei@9.99.0?external=react,react-dom,three,@react-three/fiber"
+        }
+      }
+    </script>
+    <link rel="stylesheet" href="/index.css" />
+  </head>
+  <body
+    class="bg-white text-slate-900 dark:bg-black dark:text-slate-100 transition-colors duration-300"
+  >
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
