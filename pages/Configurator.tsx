@@ -1,6 +1,4 @@
-/// <reference types="@react-three/fiber" />
 import React, { useState, Suspense, useMemo } from 'react';
-import '@react-three/fiber';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, ContactShadows, Environment, Float, Stars } from '@react-three/drei';
 import { PRODUCTS } from '../constants';

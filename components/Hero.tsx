@@ -28,8 +28,12 @@ const Hero: React.FC = () => {
             Nová Kolekce 2026
           </span>
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-white leading-none mb-6 drop-shadow-lg">
-            VIRA<br/>SHOP.
+            SPORTWEAR<br/>REDEFINED.
           </h1>
+          <p className="text-lg md:text-xl text-gray-200 mb-8 max-w-lg leading-relaxed">
+            Objevte nejnovější trendy, které definují městský styl. 
+            Prémiové materiály, unikátní střihy a nekompromisní kvalita.
+          </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <button 
               onClick={scrollToProducts}

@@ -1,0 +1,11 @@
+# SPA rewrite for VIRA React app built with Vite
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  # If the request is for an existing file or directory, serve it directly
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # Otherwise, serve index.html (SPA entry)
+  RewriteRule ^ index.html [L]
+</IfModule>

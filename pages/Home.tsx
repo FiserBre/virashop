@@ -42,6 +42,24 @@ const Home: React.FC = () => {
           ))}
         </div>
       </section>
+
+      {/* Promo Section */}
+      <section className="bg-slate-900 dark:bg-white/5 py-24 mb-16">
+        <div className="max-w-7xl mx-auto px-4 text-center">
+            <h2 className="text-4xl md:text-5xl font-black text-white mb-6 uppercase">
+              Vylaď svůj styl s AI
+            </h2>
+            <p className="text-xl text-slate-300 mb-8 max-w-2xl mx-auto">
+              Vyzkoušej náš nový 3D konfigurátor a nech si poradit od umělé inteligence při výběru perfektního outfitu.
+            </p>
+            <Link 
+              to="/configurator"
+              className="inline-block bg-white text-black px-10 py-5 font-bold uppercase tracking-widest hover:scale-105 transition-transform"
+            >
+              Spustit Konfigurátor
+            </Link>
+        </div>
+      </section>
     </div>
   );
 };

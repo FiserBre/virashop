@@ -34,6 +34,7 @@ const Navbar: React.FC<NavbarProps> = ({ cart, setIsCartOpen }) => {
     { name: 'Muži', path: '/shop?category=Muži' }, 
     { name: 'Ženy', path: '/shop?category=Ženy' },
     { name: 'Doplňky', path: '/shop?category=Doplňky' },
+    { name: 'Konfigurátor', path: '/configurator' },
   ];
 
   return (
