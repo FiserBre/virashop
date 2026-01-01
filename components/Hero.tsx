@@ -25,29 +25,14 @@ const Hero: React.FC = () => {
       <div className="relative z-10 h-full max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-end pb-20 md:pb-32">
         <div className="max-w-2xl animate-fade-in-up">
           <span className="inline-block px-3 py-1 bg-white text-black text-xs font-bold tracking-widest uppercase mb-4">
-            Nová Kolekce 2026
+            New
           </span>
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-white leading-none mb-6 drop-shadow-lg">
-            SPORTWEAR<br/>REDEFINED.
+            VIRA<br/>SHOP.
           </h1>
           <p className="text-lg md:text-xl text-gray-200 mb-8 max-w-lg leading-relaxed">
-            Objevte nejnovější trendy, které definují městský styl. 
-            Prémiové materiály, unikátní střihy a nekompromisní kvalita.
+            popis
           </p>
-          <div className="flex flex-col sm:flex-row gap-4">
-            <button 
-              onClick={scrollToProducts}
-              className="px-8 py-4 bg-white text-black font-bold text-sm tracking-widest uppercase hover:bg-gray-200 transition-colors flex items-center justify-center gap-2 hover:scale-105 transform duration-200"
-            >
-              Nakupovat nyní
-            </button>
-            <button 
-              onClick={scrollToProducts}
-              className="px-8 py-4 border border-white text-white font-bold text-sm tracking-widest uppercase hover:bg-white/10 transition-colors flex items-center justify-center gap-2"
-            >
-              Prohlédnout Lookbook <ArrowRight size={16} />
-            </button>
-          </div>
         </div>
       </div>
       
