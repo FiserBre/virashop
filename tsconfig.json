@@ -11,7 +11,9 @@
     ],
     "skipLibCheck": true,
     "types": [
-      "node"
+      "node",
+      "@react-three/fiber",
+      "@react-three/drei"
     ],
     "moduleResolution": "bundler",
     "isolatedModules": true,
