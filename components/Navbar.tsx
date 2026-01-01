@@ -52,7 +52,7 @@ const Navbar: React.FC<NavbarProps> = ({ cart, setIsCartOpen }) => {
               </button>
 
               <Link to="/" className="flex items-center space-x-2 group">
-                <div className="w-8 h-8 bg-black dark:bg-white rounded-none flex items-center justify-center text-white dark:text-black font-bold text-lg transform group-hover:rotate-12 transition-transform">
+                <div className="w-8 h-8 bg-black dark:bg-white rounded-none flex items-center justify-center text-white dark:text-black font-bold text-lg">
                   <img src="/images/logo.png" alt="logo" />
                 </div>
                 <span className="text-xl font-black tracking-tighter text-slate-900 dark:text-white uppercase hidden sm:block">
