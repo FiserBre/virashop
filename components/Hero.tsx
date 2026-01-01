@@ -14,7 +14,7 @@ const Hero: React.FC = () => {
       {/* Background Image */}
       <img 
         src="/images/Montblanchike.jpg" 
-        alt="Fashion Hero" 
+        alt="hero obrazek" 
         className="absolute inset-0 w-full h-full object-cover opacity-80 animate-scale-in duration-[2000ms]"
       />
       
