@@ -1,4 +1,3 @@
-// @ts-nocheck
 /// <reference types="@react-three/fiber" />
 import React, { useState, Suspense, useMemo } from 'react';
 import '@react-three/fiber';

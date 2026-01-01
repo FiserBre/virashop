@@ -10,10 +10,9 @@
       "DOM.Iterable"
     ],
     "skipLibCheck": true,
-    "types": [
-      "node",
-      "@react-three/fiber",
-      "@react-three/drei"
+    "typeRoots": [
+      "./types",
+      "./node_modules/@types"
     ],
     "moduleResolution": "bundler",
     "isolatedModules": true,
