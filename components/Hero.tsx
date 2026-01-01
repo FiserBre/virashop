@@ -24,14 +24,14 @@ const Hero: React.FC = () => {
       {/* Content */}
       <div className="relative z-10 h-full max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-end pb-20 md:pb-32">
         <div className="max-w-2xl animate-fade-in-up">
-          <span className="inline-block px-3 py-1 bg-white text-black text-xs font-bold tracking-widest uppercase mb-4">
+          <span className="inline-block px-3 py-1 bg-white text-black text-xs font-bold tracking-widest uppercase mb-4 text-center">
             New
           </span>
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-white leading-none mb-6 drop-shadow-lg">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-white leading-none mb-6 drop-shadow-lg text-center">
             VIRA<br/>SHOP.
           </h1>
-          <p className="text-lg md:text-xl text-gray-200 mb-8 max-w-lg leading-relaxed">
-            popis
+          <p className="text-lg md:text-xl text-gray-200 mb-8 max-w-lg leading-relaxed text-center">
+            popis si pak muzes sam navrhnout, staci rict {":)"}
           </p>
         </div>
       </div>
